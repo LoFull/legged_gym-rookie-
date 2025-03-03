@@ -27,4 +27,13 @@ print(torch.__version__)
 print(torch.cuda.is_available())
 ```
 If the output is true, the installation was successful.
+
 4、Install Isaac Gym 
+
+Download and install Isaac Gym Preview4 from https://developer.nvidia.com/isaac-gym/download
+
+`cd isaacgym/python&&pip install -e .`
+
+test through a demo:`cd examples%%python joint_monkey.py`
+
+If you have problems with this step, please refer to this documentation
